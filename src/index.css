@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.app {
+    display : flex ; 
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    overflow: hidden;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+    background: #00bfc6;
+    overflow: hidden;
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #008d95;
+    overflow: hidden;
+}
+
+/* Handle On Over */
+::-webkit-scrollbar-track:hover {
+    background: #00a4a9;
+}
+/* 1 :"#008d95" , 
+        2 :"#00a4a9"  , 
+        3: "#00bfc6" ,  */

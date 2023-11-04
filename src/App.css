@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  font-size: 20px;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.responsive{
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive{
+    display: block;
+  }
+}

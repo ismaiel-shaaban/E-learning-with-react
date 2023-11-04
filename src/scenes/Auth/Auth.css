@@ -1,0 +1,79 @@
+
+.App {
+    background-color: white;
+  }
+  
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00a4a952;
+    padding: 10px;
+    background-image: url("../../../public/assets/school.jpg");
+    background-size: cover;
+  }
+
+  
+  
+  .Auth-form {
+    width: 500px;
+    box-shadow: rgba(165, 98, 98, 0.16) 1px 1px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  @media (max-width: 800px) {
+    .Auth-form {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+    .Auth-form-content {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+
+  .submitButton {
+    background-color: #00a4a9;
+    border-color:#00a4a9 ;
+  }
+  .submitButton:hover {
+    background-color: #008d95;
+    border-color:#008d95 ;
+  }
+  
+  .RegisterLink {
+    color: #00a4a9;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .RegisterLink:hover {
+    color: #008d95;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
